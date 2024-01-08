@@ -1,0 +1,85 @@
+@import url(./Fonst.css);
+@import url(./responsive.css);
+@import url(./variable.css);
+@import url(./reset.css);
+@import url(./defults.css);
+@import url(./generalStyles.css);
+
+/*start styles  */
+
+
+.list-customer__body{
+}
+.list-customer__body-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8rem;
+
+}
+.list-customer__body-header-title{
+    font-weight: bold;
+    font-size: 2rem;
+    border-bottom: 3px solid var(--blue-color);
+    padding-bottom: 0.5rem;
+
+}
+.list-customer__body-header-search{
+box-shadow: var(--primary-shadow);
+padding:0.5rem  2rem;
+border-radius: 0.5rem;
+
+}
+.list-customer__body-header-sort{
+    box-shadow: var(--primary-shadow);
+    padding: 0.5rem 2rem;
+    border-radius: 0.5rem;
+    font-weight: bolder;
+}
+.list-customer__body-list{
+position: relative;
+}
+
+.list-customer__body-list-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: var(--primary-shadow);
+    padding:   2rem    ;
+    border-radius: 1rem;
+    background-color: var(--light-blue-color);
+    font-weight: bold;
+margin-bottom: 2rem;
+font-size: 1.6rem;
+overflow: hidden;
+
+}
+
+.list-customer__body-list-header-item{
+    padding: 0  3rem;
+    white-space: nowrap;
+
+}
+.list-customer__body-list-header-item:nth-child(2){
+    margin-right: 6rem;
+} 
+.list-customer__body-list-header-item:nth-child(3){
+    margin-right: 10rem;
+ }
+ .list-customer__body-list-header-item:nth-child(4){
+    margin-right: 12rem;
+} 
+.list-customer__body-list{
+    margin: 0  -10rem ;
+}
+.list-customer__body-list-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: var(--primary-shadow);
+    padding: 2rem  4rem ;
+    text-align: center;
+    border-radius: 1rem;
+    font-size: 1.3rem;
+    margin-top: 1rem;
+}

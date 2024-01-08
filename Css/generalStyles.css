@@ -1,0 +1,218 @@
+/* btn new produt styles  ... */
+
+.sale-today__addNewProduct {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: var(--primary-shadow);
+    text-align: center;
+    background-color: var(--blue-color);
+    color: var(--white-color);
+    margin: 2rem;
+    padding: 2rem;
+    border-radius: 5rem;
+    font-weight: bold;
+    font-size: 2.5rem;
+    width: 300px;
+    position: absolute;
+    left: 0;
+    bottom: -100px;
+    transition: all 0.5s ease;
+}
+
+.sale-today__addNewProduct-btn {
+    background-color: var(--blue-color);
+    color: var(--white-color);
+    transition: all 0.5s ease;
+
+}
+
+.sale-today__addNewProduct-btn:active,
+.sale-today__addNewProduct:active {
+    color: var(--blue-color);
+    background-color: var(--white-color);
+}
+
+
+/* header */
+.list-customer__wrapper {
+    padding: 2rem;
+
+}
+
+.list-customer__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+}
+
+.list-customer__header-right {
+    display: flex;
+    align-items: center;
+}
+
+.list-customer__header-notif {
+    background-color: var(--gray-color);
+    font-size: 1.3rem;
+    margin-left: 3rem;
+    padding: 0.8rem;
+    border-radius: 0.5rem;
+}
+
+.list-customer__header-title {
+    font-size: 4.5rem;
+    color: var(--blue-color);
+    font-weight: bolder;
+}
+
+.list-customer__header-left {}
+
+.list-customer__header-left-numUser {
+    padding: 0.5rem 1rem;
+
+    font-size: 1.3rem;
+    box-shadow: var(--primary-shadow);
+    border-radius: 0.5rem;
+    background-color: var(--gray-color);
+}
+
+
+/*side bar page  */
+
+.sideBar__wrapper{
+    /* background-color:transparent; */
+    background-color: var(--white-color) !important;
+    position: absolute;
+    width: 120%;
+    right: 0;
+    z-index: 99;
+    box-shadow:  var(--primary-shadow)   ;
+    height: 110vh;
+}
+.sideBar__header{
+    display: flex;
+align-items: center;
+justify-content: center;
+padding: 3rem 0;
+}
+.sideBar__header:active{
+    border: 0;
+}
+.sideBar__header-logo{
+    background-color: var(--gray-color);
+font-size: 1.9rem;
+height: 100px;
+width: 100px;
+border-radius: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.sideBar__accordion{
+
+}
+.sideBar__accordion-parent{
+
+}
+.accordion-item{
+background-color: transparent;
+margin-bottom: 1.5rem;
+}
+.sideBar__accordion-link{
+
+}
+.accordion-header{
+
+}
+.accordion-header   h2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.accordion-header  button {
+    
+    background-color: transparent !important;
+    font-size: 1.7rem;
+    margin-right: 1.9rem;
+
+}
+.sideBar__accordion-title{
+    margin-right: 1rem;
+}
+
+.accordion-collapse{
+    
+}
+.sideBar__accordion-item{
+    display: flex;
+    align-items: center;
+    
+
+}
+.sideBar__accordion-icon{
+    font-size: 2.5rem;
+    color:#585656;
+}
+.sideBar__accordion-link{
+font-size: 1.4rem;
+margin-right: 1.2rem;
+padding: 0.5rem 0;
+white-space: nowrap;
+font-weight: bold;
+color: #585656;
+}
+.accordion-body{
+    border-bottom: 1px solid #585656;
+    margin:  0  2rem;
+}
+.accordion-item-single{
+margin-right: 3rem;
+}
+.accordion-button{
+    position: relative;
+}
+.accordion-button::after{
+    transform: scale(1.2);
+    position: absolute;
+    left: 50px;
+    
+}
+.sideBar__accordion-title{
+    font-weight: bold;
+    color: #585656;
+    font-size: 1.8rem;
+}
+.sideBar__accordion-item  svg  {
+    font-size: 2rem;
+}
+
+.accordion-button:focus  {
+    box-shadow: none;
+    
+}
+
+   .accordion-button:focus  ~  #flush-headingTwo {
+    background-color: var(--blue-color);
+}
+
+
+/* bar menu wihile responsive .... */
+.BarMenu{
+    display: flex;
+    align-items: center;
+    margin: 4rem;
+    display: none;
+}
+.iconBarManu{
+    font-size: 5rem;
+    color: #585656;
+    
+}
+.activeed  {
+    transition: all  0.5s  ease;
+    display: block;
+}
+.removeTag {
+    display: none;
+}

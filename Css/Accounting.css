@@ -1,0 +1,214 @@
+/*  */
+@import url(./Fonst.css);
+@import url(./responsive.css);
+@import url(./variable.css);
+@import url(./reset.css);
+@import url(./defults.css);
+@import url(./generalStyles.css);
+
+/* header */
+
+.Accounting__body-Notification{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+box-shadow: var(--primary-shadow);
+padding: 1rem ;
+border-radius: 1rem ;
+position: relative;
+}
+.Accounting__body-Notification::before{
+    position: absolute;
+    content: "";
+    height: 100%;
+    width:1rem ;
+    background-color: var(--blue-color);
+    left: 0;
+    border-radius: 1rem; 
+}
+.Accounting__body-Notification-right{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-right: 2rem ;
+}
+.Accounting__body-Notification-title{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.Accounting__body-Notification-desc{
+    font-size: 1.2rem ;
+    padding-top: 0.5rem;
+}
+.Accounting__body-Notification-left{
+    margin-left: 3rem;
+
+}
+.Accounting__body-Notification-icon{
+    font-size: 2.5rem;
+    color: #696868;
+}
+.Accounting__body-header{
+display: flex;
+align-items: center ;
+margin: 2rem  0
+;
+}
+.Accounting__body-header-title{
+    font-weight: bold;
+    font-size: 1.7rem;
+    border-bottom: 3px solid var(--blue-color);
+    margin-top: 2rem;
+
+}
+.Accounting__body-inventory{
+    box-shadow: var(--primary-shadow);
+    padding: 1rem  4rem;
+    border-radius: 1rem;
+    
+}
+.Accounting__body-inventory-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.Accounting__body-inventory-wallet{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+.Accounting__body-inventory-walletTitle{
+    font-weight: bold;
+    font-size: 1.6rem;
+    border-bottom: 3px solid #ccc;
+    padding-bottom: 0.5rem;
+
+}
+.Accounting__body-inventory-walletMony{
+    color: var(--green-color);
+    margin-top: 1rem;
+
+}
+.Accounting__body-inventory-top-btn{
+background-color: var(--blue-color);
+color: white;
+padding: 1rem ;
+border-radius: 1rem;
+font-size: 1.7rem;
+margin-top: 3.5rem;
+}
+.Accounting__body-inventory-dic{
+padding-top: 1rem;
+font-weight: bold;
+
+}
+.Accounting__body-transaction{
+    margin-top: 7rem;
+}
+.Accounting__body-transaction-top{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+.Accounting__body-transaction-title{
+font-weight: bold;
+font-size: 1.7rem;
+border-bottom: 3px solid #ccc;
+margin-right: 3rem;
+}
+.Accounting__body-transaction-dates{
+display: flex;
+align-items: center;
+
+}
+.Accounting__body-transaction-date   {
+box-shadow: var(--primary-shadow);
+padding:  0.5rem 1rem;
+border-radius: 0.5rem;
+margin-left: 1rem;
+font-size: 1.6rem;
+font-weight: bold;
+width: 150px;
+text-align: center;
+white-space: nowrap;
+}
+.result{
+background-color: var(--green-color);
+}
+.result  a {
+    color: var(--white-color)  !important;
+
+}
+.Accounting__body-transaction-dateOption {
+    background-color: transparent;
+    text-align: center;
+    font-weight: bold ;
+    font-size: 1.6rem;
+}
+.Accounting__body-transaction-dateOption  option{
+text-align: center;
+}
+.Accounting__body-transaction-table{
+    box-shadow: var(--primary-shadow);
+    border-radius: 2rem;
+    padding: 1rem  2.2rem;
+    margin-top: 4rem;
+
+}
+.Accounting__body-transaction-table-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--light-blue-color);
+    padding: 1.3rem  3rem;
+    box-shadow: var(--primary-shadow);
+    border-radius: 1rem;
+    
+}
+.Accounting__body-transaction-table-headerItem{
+    
+width: 120px ;
+white-space: nowrap;
+text-align: center;
+font-weight: bold;
+font-size: 1.7rem;
+
+}
+.Accounting__body-transaction-table-main{
+margin-top: 2rem;
+
+}
+.Accounting__body-transaction-table-list{
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin:  0  2rem;
+border-bottom: 2px solid #aeacac;
+padding:   1rem  0 ;
+font-weight: bold;
+}
+.Accounting__body-transaction-table-list:last-child{
+    border-bottom:   none;
+}
+.Accounting__body-transaction-table-mainItem{
+width: 100px;
+text-align: center;
+}
+.Accounting__body-footer{
+display: flex;
+align-items: center;
+justify-content: flex-end;}
+.Accounting__body-downloadReport{
+background-color: var(--blue-color);
+margin-top: 2rem;
+color: var(--white-color);
+font-size: 1.7rem;
+border-radius: 0.75rem;
+padding: 1rem  0.5rem;
+margin-left: 5rem;
+}

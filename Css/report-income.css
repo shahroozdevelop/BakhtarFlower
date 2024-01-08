@@ -1,0 +1,168 @@
+@import url(./Fonst.css);
+@import url(./responsive.css);
+@import url(./variable.css);
+@import url(./reset.css);
+@import url(./defults.css);
+@import url(./generalStyles.css);
+
+
+.report-income__body{
+
+}
+.report-income__body-Notification{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+box-shadow: var(--primary-shadow);
+padding: 1rem ;
+border-radius: 1rem ;
+position: relative;
+}
+.report-income__body-Notification::before {
+position: absolute;
+content: "";
+height: 100%;
+width:1rem ;
+background-color: var(--blue-color);
+left: 0;
+border-radius: 1rem;
+}
+.report-income__body-Notification-right{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-right: 2rem ;
+    
+}
+.report-income__body-Notification-title{
+    font-weight: bold;
+    font-size: 1.5rem;
+
+}
+.report-income__body-Notification-desc{
+    font-size: 1.2rem ;
+    padding-top: 0.5rem;
+
+}
+.report-income__body-Notification-left{
+    margin-left: 3rem;
+
+}
+.report-income__body-Notification-icon{
+    font-size: 2.5rem;
+    color: #696868;
+
+}
+.report-income__body-header{
+margin: 4rem 0   2rem   0;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.report-income__body-header-title{
+
+font-weight: bold;
+font-size: 2rem;
+border-bottom: 3px solid var(--blue-color);
+position: relative;
+}
+.report-income__body-header-title  >  span {
+position: absolute;
+font-size: 1.5rem;
+transform: translateY(-7px);
+}
+ .report-income__body-header-dates{
+display: flex;
+align-items: center;
+
+
+}
+.report-income__body-header-date{
+    box-shadow: var(--primary-shadow);
+    padding: 0.5rem  1rem;
+    margin-left: 2rem;
+    width: 150px;
+    text-align: center;
+font-weight: bold;
+border-radius: 0.5rem;
+}
+.report-income__body-header-dateOption{
+background-color: transparent;
+font-weight: bold;
+cursor: pointer;
+
+}
+.active {
+    background-color: var(--green-color);
+}
+.active a {
+    color: var(--white-color)  !important;
+font-weight: normal;
+}
+.report-income__body-sort{
+   
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.report-income__body-sort-select{
+    margin: 1rem 0  3rem  0   ;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    box-shadow: var(--primary-shadow);
+    font-weight: bold;
+    /* text-align: center; */
+    background-color: transparent;
+
+}
+.report-income__body-table{
+box-shadow: var(--primary-shadow);
+padding: 1rem;
+border-radius: 1rem;
+
+}
+.report-income__body-table-header{
+display: flex;
+align-items: center;
+justify-content: space-around;
+background-color: var(--light-blue-color);
+padding: 1.5rem  0;
+border-radius: 1.5rem;
+box-shadow: var(--primary-shadow);
+margin: 1rem;
+}
+.report-income__body-table-header-item{
+width: 120px ;
+text-align: center;
+}
+.report-income__body-table-main{
+display: flex;
+align-items: center;
+border-bottom: 1px solid #000;
+justify-content: space-around;
+
+}
+.report-income__body-table-main:last-child {
+border-bottom: none;
+}
+.report-income__body-table-main-item{
+    font-weight: bold;
+    width: 100px;
+    text-align: center;
+    padding: 1rem 0;
+}
+.totalPrice{
+color: var(--blue-color);
+}
+.report-income__btn-PDF{
+color: var(--white-color);
+background-color: var(--blue-color);
+padding: 1rem  2rem;
+font-size: 2rem;
+border-radius: 0.75rem;
+margin-top: 2rem;
+display: flex;
+align-items: center;
+position: absolute;
+left: 10%;
+}

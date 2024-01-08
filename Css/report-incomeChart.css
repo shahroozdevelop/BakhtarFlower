@@ -1,0 +1,219 @@
+@import url(./Fonst.css);
+@import url(./responsive.css);
+@import url(./variable.css);
+@import url(./reset.css);
+@import url(./defults.css);
+@import url(./generalStyles.css);
+
+
+
+/* notication  */
+.incom-chart__wrapper{
+    margin-right: 8rem;
+}
+.report-income__body-Notification{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+box-shadow: var(--primary-shadow);
+padding: 1rem ;
+border-radius: 1rem ;
+position: relative;
+}
+.report-income__body-Notification::before {
+position: absolute;
+content: "";
+height: 100%;
+width:1rem ;
+background-color: var(--blue-color);
+left: 0;
+border-radius: 1rem;
+}
+.report-income__body-Notification-right{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-right: 2rem ;
+    
+}
+.report-income__body-Notification-title{
+    font-weight: bold;
+    font-size: 1.5rem;
+
+}
+.report-income__body-Notification-desc{
+    font-size: 1.2rem ;
+    padding-top: 0.5rem;
+
+}
+.report-income__body-Notification-left{
+    margin-left: 3rem;
+
+}
+.report-income__body-Notification-icon{
+    font-size: 2.5rem;
+    color: #696868;
+
+}
+
+/* main */
+.report-income__body-Notification{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+box-shadow: var(--primary-shadow);
+padding: 1rem ;
+border-radius: 1rem ;
+position: relative;
+}
+.report-income__body-Notification::before {
+position: absolute;
+content: "";
+height: 100%;
+width:1rem ;
+background-color: var(--blue-color);
+left: 0;
+border-radius: 1rem;
+}
+.report-income__body-Notification-right{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-right: 2rem ;
+    
+}
+.report-income__body-Notification-title{
+    font-weight: bold;
+    font-size: 1.5rem;
+
+}
+.report-income__body-Notification-desc{
+    font-size: 1.2rem ;
+    padding-top: 0.5rem;
+
+}
+.report-income__body-Notification-left{
+    margin-left: 3rem;
+
+}
+.report-income__body-Notification-icon{
+    font-size: 2.5rem;
+    color: #696868;
+
+}
+.report-income__body-header{
+margin: 4rem 0   2rem   0;
+
+}
+
+.report-income__body-header-dates{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+    .report-income__body-header-date{
+        box-shadow: var(--primary-shadow);
+        padding: 0.5rem  1rem;
+        margin-left: 2rem;
+        width: 150px;
+        text-align: center;
+    font-weight: bold;
+    border-radius: 0.5rem;
+    }
+    .report-income__body-header-dateOption{
+    background-color: transparent;
+    font-weight: bold;
+    cursor: pointer;
+    
+    }
+    .active {
+        background-color: var(--green-color);
+    }
+    .active a {
+        color: var(--white-color)  !important;
+    font-weight: normal;
+    }
+
+    /*local styles  */
+    .incom-chart__viewReport{
+box-shadow: var(--primary-shadow);
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 1rem;
+margin-top: 2rem;
+border-radius: 1rem;
+
+    }
+    .incom-chart__viewReport-right{
+display: flex;
+align-items: center;
+
+    }
+    .incom-chart__viewReport-icon{
+margin-left: 1rem;
+font-size: 2rem;
+color: var(--blue-color);
+    }
+    .incom-chart__viewReport-text{
+        font-weight: bold;
+
+    }
+    .incom-chart__viewReport-left{
+        display: flex;
+        align-items: center;
+        margin-left: 1rem;
+        
+
+    }
+    .incom-chart__viewReport-icon{
+
+    }
+    .incom-chart__body-report{
+display: flex;
+align-items: baseline;
+
+    }
+    .incom-chart__body-report-right{
+        margin-left: 3rem;
+        white-space: nowrap;
+display: flex;
+align-items: flex-start;
+justify-content: flex-start;
+    }
+    .incom-chart__body-report-right-title{
+font-weight: bold;
+font-size: 1.8rem;
+border-bottom: 3px solid var(--blue-color);
+
+    }
+    .incom-chart__body-report-left{
+
+    }
+    .incom-chart__body-report-box{
+        box-shadow: var(--primary-shadow);
+        padding: 2rem  1rem;
+        border-radius: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 1rem;
+
+    }
+    .incom-chart__body-report-BoxPercent{
+margin: 1rem 0;
+font-weight: bold;
+font-size: 1.7rem;
+background-color: var(--light-blue-color);
+padding: 1rem;
+border-radius: 1rem;
+color: var(--green-color);
+    }
+    .incom-chart__body-report-BoxPrice{
+font-weight: bold;
+padding: 1rem 0;
+    }
+    .incom-chart__body-report-BoxDiec{
+font-size: 1.3rem;
+    }

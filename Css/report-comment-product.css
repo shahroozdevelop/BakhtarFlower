@@ -1,0 +1,191 @@
+@import url(./Fonst.css);
+@import url(./responsive.css);
+@import url(./variable.css);
+@import url(./reset.css);
+@import url(./defults.css);
+@import url(./generalStyles.css);
+
+/* start styles  with css*/
+
+/* start body styls */
+.report-comment__body {
+    width: 100%;
+    max-width: 1800px;
+}
+
+.report-comment__body-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: var(--primary-shadow);
+    padding: 0.5rem 2rem;
+    border-radius: 0.8rem;
+    position: relative;
+}
+
+.report-comment__body-header::before {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 1rem;
+    background-color: var(--blue-color);
+    left: 0;
+    border-radius: 1rem;
+    /* border-top-left-radius: 1rem;
+border-bottom-left-radius: 1rem; */
+}
+
+.report-comment__body-header-right {
+    margin-right: 1rem;
+
+}
+
+.report-comment__body-right-title {
+    font-weight: bold;
+    font-size: 1.3rem;
+
+}
+
+.report-comment__body-right-desc {
+    font-size: 1.2rem;
+
+}
+
+.report-comment__body-header-left {
+    margin-left: 1rem;
+}
+
+.report-comment__body-left-icon {
+    font-size: 3rem;
+    color: #a5a3a3;
+    cursor: pointer;
+}
+
+.report-comment__body-report {
+    display: flex;
+    align-items: first baseline;
+    margin-top: 2rem;
+}
+
+.report-comment__report-right {
+    margin-left: 2rem;
+    text-align: center;
+}
+
+.report-comment__report-title {
+    font-weight: bold;
+    font-size: 1.8rem;
+    white-space: nowrap;
+    border-bottom: 3px solid var(--blue-color);
+}
+
+.report-comment__report-left {
+    width: 100%;
+}
+
+
+.report-comment__report-left-statistics {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    box-shadow: var(--primary-shadow);
+    border-radius: 1rem;
+    padding: 1rem 2em;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.report-comment__report-left-statistics-icon {
+    background-color: var(--light-blue-color);
+    padding: 1rem;
+    color: var(--blue-color);
+    font-weight: bold;
+    font-size: 1.8rem;
+    border-radius: 1rem;
+
+}
+
+.report-comment__report-left-statistics-number {
+    font-weight: bold;
+    margin: 1rem 0;
+
+}
+
+.report-comment__report-left-statistics-status {
+    font-size: 1.4rem;
+}
+
+
+.report-comment__body-comment {
+    margin-top: 2rem;
+}
+
+.report-comment__comment-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.report-comment__comment-header-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+
+.report-comment__comment-top {
+    border-bottom: 3px solid  var(--blue-color);
+    padding-bottom: 0.5rem;
+}
+
+.report-comment__comment-bottom {
+    padding-top: 0.5rem;
+}
+
+.report-comment__comment-header-left {
+    border-bottom: 1px solid  var(--blue-color);
+    font-weight: bold;
+    color: var(--blue-color);
+}
+
+.report-comment__body-comment-main {
+    display: flex;
+    align-items:  center;
+    justify-content: space-between;
+    border-bottom: 1px solid #000;
+    margin-top: 2rem;
+    padding-bottom: 1rem;
+}
+.report-comment__body-comment-main:last-child{
+    border-bottom: none;
+
+}
+
+.report-comment__comment-main-right {}
+
+.report-comment__comment-main-name {
+
+    font-weight: bold;
+    font-size: 1.8rem;
+    color: #4d4b4b;
+}
+
+.report-comment__comment-main-left {
+    display: flex;
+    align-items: center;
+}
+
+.report-comment__comment-main-leftDate {
+    margin-left: 2rem;
+}
+
+.report-comment__comment-main-leftScore {
+    background-color: var(--blue-color);
+    color: var(--white-color);
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    font-size: 1.3rem;
+}

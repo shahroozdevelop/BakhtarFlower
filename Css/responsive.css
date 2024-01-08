@@ -1,0 +1,261 @@
+@media screen and (max-width:600px) {
+
+    .report-comment__body-report {
+        flex-direction: column !important;
+    }
+}
+@media screen and (min-width:980px  ) {
+        /* general */
+        .left-side{
+            margin-right:33rem !important;
+        }
+        
+
+}
+
+@media screen and (max-width:990px) {
+
+
+        .left-side{
+            margin-right: 0 !important;
+        }
+        .sideBar__wrapper  {
+            width: 100%  !important;
+            display: none;
+            height: 550%  !important;
+        }
+    
+        /* side bar */
+        .BarMenu{
+            display: block !important;
+        }
+
+    .report-comment__body-report {
+        flex-direction: column !important;
+
+
+    }
+
+    .report-comment__report-title {
+        margin-bottom: 2rem;
+
+    }
+
+    .sale-today__addNewProduct {
+        border-radius: 0 !important;
+        width: 100% !important;
+        margin: 0 auto !important;
+        margin-top: 2rem !important;
+        justify-content: center !important;
+    }
+
+    .report-sale__section {
+        flex-direction: column;
+    }
+
+    .report-sale__section-right-title {
+        margin: 2rem 0;
+        display: inline-flex;
+    }
+
+    .report-sale__scores-header {
+        align-items: stretch !important;
+        flex-direction: column;
+    }
+
+    .report-sale__scores-header-title {
+        margin: 2rem 0;
+        width: 100px;
+        white-space: nowrap;
+    }
+
+    .report-sale__section-left-statistics {
+        margin: 0 4rem;
+        padding: 4rem 0 !important;
+    }
+
+    .report-sale__section-left-statistics-status {
+        font-size: 2rem !important;
+        font-weight: bold;
+    }
+
+    .report-sale__section-left-statistics-number {
+        font-size: 3rem !important;
+        padding: 2rem 0 !important;
+    }
+
+    .report-sale__section-left-statistics-percent {
+        font-size: 3rem !important;
+    }
+
+
+    /* report-income||page */
+    .report-income__body-header {
+        flex-direction: column;
+
+    }
+
+    .report-income__body-header-dates {
+        flex-direction: column;
+        width: 100% !important;
+
+    }
+
+    .report-income__body-header-date {
+        margin: 1rem auto !important;
+        margin-bottom: 1rem;
+        width: 100% !important;
+
+    }
+
+    .report-income__body-sort {
+        align-items: center !important;
+        justify-content: center !important;
+    }
+
+    .report-income__btn-PDF {
+        width: 100%;
+        align-items: center !important;
+        justify-content: center;
+    }
+
+    .incom-chart__body-report {
+        flex-direction: column;
+        align-items: flex-start !important;
+    }
+
+    .incom-chart__body-report-right-title {
+        width: 100%;
+        text-align: start !important;
+        margin: 2rem 1rem;
+        font-size: 2rem !important;
+    }
+
+    .incom-chart__body-report-box {
+        margin: 0 2rem;
+    }
+
+    .report-income__body-Notification-icon {
+        margin-right: 2rem;
+        font-size: 3rem !important;
+    }
+
+    /* Accoounting */
+    .Accounting__body-inventory-top {
+        flex-direction: column;
+    }
+
+    .Accounting__body-inventory-top-btn {
+        margin-top: 2rem !important;
+    }
+
+    .Accounting__body-transaction-top {
+        flex-direction: column;
+    }
+
+    .Accounting__body-transaction-dates {
+        flex-direction: column;
+        width: 100% !important;
+    }
+
+    .Accounting__body-transaction-date {
+        width: 100% !important;
+        margin-top: 1rem;
+    }
+
+    .Accounting__body-transaction-table {
+        display: flex !important;
+        align-items: center !important;
+        flex-direction: column !important;
+        overflow: hidden;
+        justify-content: center;
+
+    }
+
+    .Accounting__body-transaction-table-header {}
+
+    .Accounting__body-transaction-table-headerItem {
+        font-size: 1.5rem !important;
+        width: 100% !important;
+        margin-left: 0.75rem;
+    }
+
+    .Accounting__body-footer {
+        width: 100% !important;
+    }
+
+    .Accounting__body-downloadReport {
+        width: 100%;
+        margin: 2rem auto !important;
+        padding: 2rem 0 !important;
+        border-radius: 0 !important;
+    }
+
+    /* list customer */
+
+    .list-customer__body-header {
+        flex-direction: column;
+        align-items: stretch !important;
+    }
+
+    .list-customer__body-header-title{
+        margin-bottom: 2rem;
+    }
+    .list-customer__body-header-search{
+        margin-bottom: 1rem;
+    }
+.list-customer__body-list-header{
+    width: 100%  !important;
+}
+.list-customer__body-list-header-item{
+    width: 100% !important;
+    margin: 0 !important;
+    font-size: 1.2rem;
+    white-space: nowrap;
+    text-align: center;
+}
+/* main -dashbord */
+.dashbord-main__body-sale    ,  .dashbord-main__body-product{
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-end;
+    align-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    margin-right: 3rem;
+}
+.dashbord-main__body-right-title{
+    margin-top: 3rem;
+    font-size: 2.4rem  !important;
+}
+.dashbord-main__body-right-title:nth-child(1){
+margin-right: 0 !important;
+}
+.dashbord-main__body-mostVisited{
+    flex-direction: column;
+    margin-top: 3rem;
+width: 100%;
+align-items: flex-start !important;
+
+}
+.dashbord-main__body-viewAll{
+    font-size: 2rem  !important;
+    width: 100%;
+
+}
+.dashbord-main__body-mostVisited-title{
+    margin: 2rem  2.5rem ;
+    font-size: 2.4rem  !important;
+}
+
+.dashbord-main__body-mostVisited-list{
+    font-size: 2rem !important;
+    margin-right: 3rem;
+}
+
+
+
+}
+
+
+
